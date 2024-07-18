@@ -29,3 +29,20 @@ print(conf_matrix)
 
 print('Coefficients:', model.coef_)
 print('Intercept:', model.intercept_)
+
+
+'''
+Columns in the dataset before cleaning: Index(['Serial No.', 'GRE', 'TOEFL Score', 'University Rating', 'SOP', 'LOR ',
+       'CGPA', 'Research', 'admit '],
+      dtype='object')
+Columns in the dataset after cleaning: Index(['Serial No.', 'GRE', 'TOEFL Score', 'University Rating', 'SOP', 'LOR',
+       'CGPA', 'Research', 'admit'],
+      dtype='object')
+Accuracy: 0.925
+Confusion Matrix:
+[[ 5  5]
+ [ 1 69]]
+Coefficients: [[ 0.0621824   0.25120922 -0.5402878  -0.35240695  0.79303034  1.74011998
+  -0.1424762 ]]
+Intercept: [-56.63444721]
+'''

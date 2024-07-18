@@ -30,3 +30,9 @@ kmeans_silhouette = metrics.silhouette_score(X_scaled, kmeans_clusters)
 # Print silhouette scores
 print(f"GMM Silhouette Score: {gmm_silhouette:.2f}")
 print(f"k-Means Silhouette Score: {kmeans_silhouette:.2f}")
+
+
+'''
+GMM Silhouette Score: 0.11
+k-Means Silhouette Score: 0.17
+'''

@@ -125,3 +125,21 @@ metadata, traindata = read_data("tennisdata.csv")
 data = np.array(traindata)
 node = create_node(data, metadata)
 print_tree(node, 0)
+
+'''
+Outlook
+    Overcast
+       b'Yes'
+    Rainy
+       Windy
+          b'False'
+             b'Yes'
+          b'True'
+             b'No'
+    Sunny
+       Humidity
+          b'High'
+             b'No'
+          b'Normal'
+             b'Yes'
+'''

@@ -43,3 +43,15 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
+
+'''
+Column names in the dataset:
+Index(['Serial No.', 'GRE', 'TOEFL Score', 'University Rating', 'SOP', 'LOR',
+       'CGPA', 'Research', 'admit '],
+      dtype='object')
+Columns after preprocessing:
+Index(['GRE', 'TOEFL Score', 'University Rating', 'CGPA', 'Research',
+       'admit '],
+      dtype='object')
+Accuracy: 0.7875
+'''

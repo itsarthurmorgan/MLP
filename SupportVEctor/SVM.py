@@ -45,3 +45,26 @@ print(f"\nAccuracy of SVM with PCA: {accuracy:.2f}")
 # Step 9: Print classification report for detailed evaluation
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
+
+
+'''
+Dataset preview:
+   age  Gender  Family  diet  Lifestyle  cholestrol  heartdisease
+0    0       0       1     1          3           0             1
+1    0       1       1     1          3           0             1
+2    1       0       0     0          2           1             1
+3    4       0       1     1          3           2             0
+4    3       1       1     0          0           2             0
+
+Accuracy of SVM with PCA: 1.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         3
+
+    accuracy                           1.00         4
+   macro avg       1.00      1.00      1.00         4
+weighted avg       1.00      1.00      1.00         4
+'''

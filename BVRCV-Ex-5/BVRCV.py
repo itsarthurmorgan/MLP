@@ -67,3 +67,14 @@ def cross_validation(X, y, model, n_splits=5):
 # Compute cross-validation score
 avg_accuracy = cross_validation(X, y, model)
 print(f'Average Accuracy across 5 folds: {avg_accuracy:.2f}')
+
+
+'''
+Index(['crim', 'zn', 'indus', 'chas', 'nox', 'rm', 'age', 'dis', 'rad', 'tax',
+       'ptratio', 'b', 'lstat', 'medv'],
+      dtype='object')
+Bias: -0.03
+Variance: 0.25
+Accuracy: 0.87
+Average Accuracy across 5 folds: 0.86
+'''

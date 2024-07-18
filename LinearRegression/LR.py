@@ -22,3 +22,12 @@ y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print(f'Mean Squared Error: {mse}')
 print(f'Coefficients: {model.coef_}')
+
+
+'''
+Mean Squared Error: 24.29111947497418
+Coefficients: [-1.13055924e-01  3.01104641e-02  4.03807204e-02  2.78443820e+00
+ -1.72026334e+01  4.43883520e+00 -6.29636221e-03 -1.44786537e+00
+  2.62429736e-01 -1.06467863e-02 -9.15456240e-01  1.23513347e-02
+ -5.08571424e-01]
+'''

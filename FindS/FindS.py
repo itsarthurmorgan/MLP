@@ -31,3 +31,26 @@ for instance in data:
 
 print("\nThe maximally specific Find-S hypothesis for the given training examples is:")
 print(hypo)
+
+
+'''
+The given training examples are:
+['Sunny', 'Warm', 'Normal', 'Strong', 'Warm', 'Same', 'Yes']
+['Sunny', 'Warm', 'High', 'Strong', 'Warm', 'Same', 'Yes']
+['Sunny', 'Warm', 'High', 'Strong', 'Cool', 'Change', 'Yes']
+
+The positive examples are:
+['Sunny', 'Warm', 'Normal', 'Strong', 'Warm', 'Same', 'Yes']
+['Sunny', 'Warm', 'High', 'Strong', 'Warm', 'Same', 'Yes']
+['Sunny', 'Warm', 'High', 'Strong', 'Cool', 'Change', 'Yes']
+
+
+The steps of the Find-S algorithm are:
+ ['%', '%', '%', '%', '%', '%']
+['Sunny', 'Warm', 'Normal', 'Strong', 'Warm', 'Same']
+['Sunny', 'Warm', '?', 'Strong', 'Warm', 'Same']
+['Sunny', 'Warm', '?', 'Strong', '?', '?']
+
+The maximally specific Find-S hypothesis for the given training examples is:
+['Sunny', 'Warm', '?', 'Strong', '?', '?']
+'''

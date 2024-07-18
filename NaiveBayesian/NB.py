@@ -34,3 +34,10 @@ print("Actual Values:", y.values)
 # Calculate accuracy (for demonstration, on training data)
 accuracy = (y_pred == y.values).mean()
 print(f"Accuracy: {accuracy:.2f}")
+
+
+'''
+Predictions: [0 0 1 1 1 1 1 0 1 1 1 1 1 0]
+Actual Values: [0 0 1 1 1 0 1 0 1 1 1 1 1 0]
+Accuracy: 0.93
+'''

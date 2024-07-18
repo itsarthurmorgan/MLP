@@ -50,3 +50,25 @@ print ("\nActual Output: \n" + str(y))
 print ("\nPredicted Output: \n" + str(NN.forward(X)))
 print ("\nLoss: \n" + str(np.mean(np.square(y - NN.forward(X)))))     
 NN.train(X, y)
+
+'''
+OUTPUT:
+
+Input: 
+[[0.66666667 1.        ]
+ [0.33333333 0.55555556]
+ [1.         0.66666667]]
+
+Actual Output: 
+[[0.92]
+ [0.86]
+ [0.89]]
+
+Predicted Output: 
+[[0.39467899]
+ [0.43132051]
+ [0.43222733]]
+
+Loss: 
+0.22309469641600735
+'''

@@ -16,3 +16,17 @@ for i in range(len(X_test)):
     prediction=kn.predict(x_new)
     print("TARGET=",y_test[i],dataset["target_names"][y_test[i]],"PREDICTED=",prediction,dataset["target_names"][prediction])
 print(kn.score(X_test,y_test))
+
+
+'''
+TARGET= 0 setosa PREDICTED= [0] ['setosa']
+TARGET= 2 virginica PREDICTED= [2] ['virginica']
+TARGET= 1 versicolor PREDICTED= [1] ['versicolor']
+TARGET= 0 setosa PREDICTED= [0] ['setosa']
+TARGET= 2 virginica PREDICTED= [2] ['virginica']
+TARGET= 2 virginica PREDICTED= [2] ['virginica']
+TARGET= 1 versicolor PREDICTED= [1] ['versicolor']
+TARGET= 0 setosa PREDICTED= [0] ['setosa']
+TARGET= 1 versicolor PREDICTED= [2] ['virginica']
+0.9736842105263158
+'''
